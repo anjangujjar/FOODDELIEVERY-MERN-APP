@@ -31,6 +31,7 @@ app.get("/", async (req, res) => {
   });
 });
 
+
 const connectDB = () => {
   mongoose.set("strictQuery", true);
   mongoose
