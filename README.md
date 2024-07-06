@@ -43,21 +43,23 @@ Food Delivery MERN App is a full-stack web application for ordering food online.
    npm install
    ```
 
-4. In the server directory replace MONGODB_URL with your environment variables:
+3. In the server directory replace MONGODB_URL with your environment variables:
 
    MONGODB_URL=<your_mongodb_uri>
   
-5. Start the development server:
-```
+4. Start the development server:
+
    # Start server
+   ```
    cd server
    npm run dev
-
+   ```
    # Start client
+   ```
    Open new Terminal
    cd client
    npm start
-```
+   ```
 ## Usage
 
 - Visit `http://localhost:3000` to access the application.
