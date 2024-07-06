@@ -4,6 +4,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import UserRoutes from "./routes/User.js";
 import FoodRoutes from "./routes/Food.js";
+const MONGODB_URL = 'mongodb+srv://anjangujjar1310:ROOT@cluster0.inzesyt.mongodb.net/food-delievery?retryWrites=true&w=majority&appName=Cluster0';
 dotenv.config();
 
 const app = express();
@@ -35,7 +36,7 @@ app.get("/", async (req, res) => {
 const connectDB = () => {
   mongoose.set("strictQuery", true);
   mongoose
-    .connect(process.env.MONGODB_URL)
+    .connect(MONGODB_URL)
     .then(() => console.log("Connected to Mongo DB"))
     .catch((err) => {
       console.error("failed to connect with mongo");
