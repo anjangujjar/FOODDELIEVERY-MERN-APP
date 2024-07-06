@@ -27,13 +27,13 @@ Food Delivery MERN App is a full-stack web application for ordering food online.
 ## Installation
 
 1. Clone the repository:
-
+```
    git clone https://github.com/anjangujjar/FOODDELIEVERY-MERN-APP.git
    cd FOODDELIEVERY-MERN-APP
-   ```
+```
 
 2. Install dependencies for both server and client:
-
+```
    # Install server dependencies
    cd server
    npm install
@@ -43,12 +43,12 @@ Food Delivery MERN App is a full-stack web application for ordering food online.
    npm install
    ```
 
-3. In the server directory replace MONGODB_URL with your environment variables:
+4. In the server directory replace MONGODB_URL with your environment variables:
 
    MONGODB_URL=<your_mongodb_uri>
   
-4. Start the development server:
-
+5. Start the development server:
+```
    # Start server
    cd server
    npm run dev
@@ -57,7 +57,7 @@ Food Delivery MERN App is a full-stack web application for ordering food online.
    Open new Terminal
    cd client
    npm start
-
+```
 ## Usage
 
 - Visit `http://localhost:3000` to access the application.
@@ -96,6 +96,3 @@ For any questions or feedback, feel free to contact:
 
 - Your Name: [anjangujjar1310@gmail.com](mailto:anjangujjar1310@gmail.com)
 - GitHub: [anjangujjar](https://github.com/anjangujjar)
-```
-
-Make sure to replace placeholder values with actual data specific to your project, such as your MongoDB URI, JWT secret, and contact information. If there are additional features or instructions specific to your application, include them as well.
